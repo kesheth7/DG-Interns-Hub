@@ -1,0 +1,9 @@
+WEEK 2 FINAL CHECKLIST (UPDATED)
+
+PRESENT: 8 notes; 6 TryHackMe writeups and completion screenshots; Wireshark practical writeup; 3 PCAPNG; 20 Nmap TXT/XML outputs; Wireshark/Nmap/Windows/PowerShell evidence; 2 cheat sheets; EVTX backup; CSV; DOCX and PDF report; PPTX presentation; README.
+
+NOT VERIFIED FROM ARCHIVE: LinkedIn concept and weekly posts; actual Google Drive upload and link submission.
+
+OPTIONAL: Wireshark sample capture fallback exercise (not required if six TryHackMe rooms completed).
+
+MANUAL QUALITY CHECK: Open documents and inspect screenshots before final submission.

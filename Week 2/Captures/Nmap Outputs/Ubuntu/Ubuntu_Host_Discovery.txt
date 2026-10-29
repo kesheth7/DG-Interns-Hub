@@ -1,0 +1,5 @@
+# Nmap 7.95 scan initiated Wed Oct 28 03:08:18 2026 as: /usr/lib/nmap/nmap -sn -oN Ubuntu_Host_Discovery.txt -oX Ubuntu_Host_Discovery.xml 192.168.56.101
+Nmap scan report for 192.168.56.101
+Host is up (0.0020s latency).
+MAC Address: 08:00:27:14:A7:6D (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+# Nmap done at Wed Oct 28 03:08:31 2026 -- 1 IP address (1 host up) scanned in 13.13 seconds

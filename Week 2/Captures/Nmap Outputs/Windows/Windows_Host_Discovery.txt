@@ -1,0 +1,5 @@
+# Nmap 7.95 scan initiated Wed Oct 28 08:15:47 2026 as: /usr/lib/nmap/nmap -sn -PR -oN Windows_Host_Discovery.txt -oX Windows_Host_Discovery.xml 192.168.56.104
+Nmap scan report for 192.168.56.104
+Host is up (0.0093s latency).
+MAC Address: 08:00:27:1D:9D:C0 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+# Nmap done at Wed Oct 28 08:16:00 2026 -- 1 IP address (1 host up) scanned in 13.18 seconds

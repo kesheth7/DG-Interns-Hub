@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Wed Oct 28 08:15:47 2026 as: /usr/lib/nmap/nmap -sn -PR -oN Windows_Host_Discovery.txt -oX Windows_Host_Discovery.xml 192.168.56.104 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sn -PR -oN Windows_Host_Discovery.txt -oX Windows_Host_Discovery.xml 192.168.56.104" start="1793189747" startstr="Wed Oct 28 08:15:47 2026" version="7.95" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="Parallel DNS resolution of 1 host." time="1793189759" percent="0.00"/>
+<taskprogress task="Parallel DNS resolution of 1 host." time="1793189760" percent="0.00"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.56.104" addrtype="ipv4"/>
+<address addr="08:00:27:1D:9D:C0" addrtype="mac" vendor="PCS Systemtechnik/Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+<times srtt="9302" rttvar="9302" to="100000"/>
+</host>
+<runstats><finished time="1793189760" timestr="Wed Oct 28 08:16:00 2026" summary="Nmap done at Wed Oct 28 08:16:00 2026; 1 IP address (1 host up) scanned in 13.18 seconds" elapsed="13.18" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

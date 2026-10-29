@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Wed Oct 28 03:12:13 2026 as: /usr/lib/nmap/nmap -sS -oN Ubuntu_SYN_Scan.txt -oX Ubuntu_SYN_Scan.xml 192.168.56.101
+Nmap scan report for 192.168.56.101
+Host is up (0.0024s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 08:00:27:14:A7:6D (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Wed Oct 28 03:12:26 2026 -- 1 IP address (1 host up) scanned in 13.38 seconds

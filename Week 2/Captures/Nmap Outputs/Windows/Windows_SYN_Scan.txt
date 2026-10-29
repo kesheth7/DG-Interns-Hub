@@ -1,0 +1,8 @@
+# Nmap 7.95 scan initiated Wed Oct 28 08:13:57 2026 as: /usr/lib/nmap/nmap -Pn -sS -oN Windows_SYN_Scan.txt -oX Windows_SYN_Scan.xml 192.168.56.104
+Nmap scan report for 192.168.56.104
+Host is up (0.0019s latency).
+All 1000 scanned ports on 192.168.56.104 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 08:00:27:1D:9D:C0 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Wed Oct 28 08:14:33 2026 -- 1 IP address (1 host up) scanned in 36.09 seconds
