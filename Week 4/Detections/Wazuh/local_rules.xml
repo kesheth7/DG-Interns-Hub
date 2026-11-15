@@ -1,0 +1,7 @@
+<!-- Example matching the custom rule test evidenced in screenshot 61. -->
+<group name="week4_custom_detection,configuration_change,">
+  <rule id="100100" level="8">
+    <match>UNAUTHORIZED_CHANGE</match>
+    <description>Week 4: Suspicious configuration change detected</description>
+  </rule>
+</group>
